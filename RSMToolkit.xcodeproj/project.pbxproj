@@ -16,6 +16,7 @@
 		75947DA517B601EE00E91A62 /* libRSMToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75947D8D17B601EE00E91A62 /* libRSMToolkit.a */; };
 		75947DAB17B601EE00E91A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75947DA917B601EE00E91A62 /* InfoPlist.strings */; };
 		75947DAD17B601EE00E91A62 /* RSMToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */; };
+		75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		75947DA817B601EE00E91A62 /* RSMToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSMToolkitTests-Info.plist"; sourceTree = "<group>"; };
 		75947DAA17B601EE00E91A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMToolkitTests.m; sourceTree = "<group>"; };
+		75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSMToolKit.h"; sourceTree = "<group>"; };
+		75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSMToolKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 			children = (
 				75947D9517B601EE00E91A62 /* RSMToolkit.h */,
 				75947D9717B601EE00E91A62 /* RSMToolkit.m */,
+				75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */,
+				75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */,
 				75947D9317B601EE00E91A62 /* Supporting Files */,
 			);
 			path = RSMToolkit;
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */,
 				75947D9817B601EE00E91A62 /* RSMToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

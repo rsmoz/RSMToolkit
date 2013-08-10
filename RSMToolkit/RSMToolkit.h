@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "RSMToolkit.h"
 
 @interface RSMToolkit : NSObject
+
++ (void)openURLStringsIfPossible: (NSArray *)strings;
++ (void)openURLsIfPossible: (NSArray *)URLs;
+
 
 @end
