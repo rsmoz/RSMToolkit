@@ -1,20 +1,20 @@
 #
-# Be sure to run `pod spec lint RSMToolKit.podspec' to ensure this is a
+# Be sure to run `pod spec lint RSMToolkit.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
 # To learn more about the attributes see http://docs.cocoapods.org/specification.html
 #
 Pod::Spec.new do |s|
-  s.name         = "RSMToolKit"
-  s.version      = "0.0.1"
-  s.summary      = "Things I use to speed up iOS development."
+  s.name         = "RSMToolkit"
+  s.version      = "0.0.2"
+  s.summary      = "Things I use to speed up iOS development"
   # s.description  = <<-DESC
-  #                   An optional longer description of RSMToolKit
+  #                   An optional longer description of RSMToolkit
   #
   #                   * Markdown format.
   #                   * Don't worry about the indent, we strip it!
   #                  DESC
-  s.homepage     = "http://mozayeni.com/"
+  s.homepage     = "http://mzy.me/"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
@@ -40,15 +40,15 @@ Pod::Spec.new do |s|
   # If this Pod runs only on iOS or OS X, then specify the platform and
   # the deployment target.
   #
-  s.platform     = :ios, '6.1'
+   s.platform     = :ios, '6.1'
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   # If this Pod runs on both platforms, then specify the deployment
   # targets.
   #
-  # s.ios.deployment_target = '6.1'
-  # s.osx.deployment_target = '10.8'
+  # s.ios.deployment_target = '5.0'
+  # s.osx.deployment_target = '10.7'
 
   # A list of file patterns which select the source files that should be
   # added to the Pods project. If the pattern is a directory then the
