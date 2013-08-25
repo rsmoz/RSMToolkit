@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   # added to the Pods project. If the pattern is a directory then the
   # path will automatically have '*.{h,m,mm,c,cpp}' appended.
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = '*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
 
   # A list of file patterns which select the header files that should be
