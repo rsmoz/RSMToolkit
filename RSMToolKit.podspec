@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "RSMToolkit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Things I use to speed up iOS development"
   # s.description  = <<-DESC
   #                   An optional longer description of RSMToolkit
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "https://github.com/rsmoz/RSMToolkit.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/rsmoz/RSMToolkit.git", :tag => "0.0.3" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
