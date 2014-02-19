@@ -17,6 +17,8 @@
 		75947DAB17B601EE00E91A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75947DA917B601EE00E91A62 /* InfoPlist.strings */; };
 		75947DAD17B601EE00E91A62 /* RSMToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */; };
 		75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */; };
+		75A7A5E11875DC0B00B639B0 /* NSArray+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */; };
+		75A7A5E41875DC3300B639B0 /* NSDictionary+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMToolkitTests.m; sourceTree = "<group>"; };
 		75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSMToolKit.h"; sourceTree = "<group>"; };
 		75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSMToolKit.m"; sourceTree = "<group>"; };
+		75A7A5DF1875DC0B00B639B0 /* NSArray+DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DeepCopy.h"; sourceTree = "<group>"; };
+		75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DeepCopy.m"; sourceTree = "<group>"; };
+		75A7A5E21875DC3300B639B0 /* NSDictionary+DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeepCopy.h"; sourceTree = "<group>"; };
+		75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeepCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				75947D9717B601EE00E91A62 /* RSMToolkit.m */,
 				75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */,
 				75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */,
+				75A7A5DF1875DC0B00B639B0 /* NSArray+DeepCopy.h */,
+				75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */,
+				75A7A5E21875DC3300B639B0 /* NSDictionary+DeepCopy.h */,
+				75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */,
 				75947D9317B601EE00E91A62 /* Supporting Files */,
 			);
 			path = RSMToolkit;
@@ -230,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */,
+				75A7A5E11875DC0B00B639B0 /* NSArray+DeepCopy.m in Sources */,
+				75A7A5E41875DC3300B639B0 /* NSDictionary+DeepCopy.m in Sources */,
 				75947D9817B601EE00E91A62 /* RSMToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				75947DB217B601EE00E91A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75947DB317B601EE00E91A62 /* Build configuration list for PBXNativeTarget "RSMToolkitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				75947DB517B601EE00E91A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

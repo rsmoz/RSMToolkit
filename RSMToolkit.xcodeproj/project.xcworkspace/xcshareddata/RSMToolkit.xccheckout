@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>264E6392-C92C-40F6-A066-DF606603C8FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RSMToolkit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B73544F4-695F-49B9-8606-0E04A5E5417A</key>
+		<string>https://github.com/rsmoz/RSMToolkit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RSMToolkit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B73544F4-695F-49B9-8606-0E04A5E5417A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsmoz/RSMToolkit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B73544F4-695F-49B9-8606-0E04A5E5417A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B73544F4-695F-49B9-8606-0E04A5E5417A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RSMToolkit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
