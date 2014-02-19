@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RSMToolkit"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Personal toolkit"
   s.homepage     = "https://github.com/rsmoz/RSMToolkit"
 
