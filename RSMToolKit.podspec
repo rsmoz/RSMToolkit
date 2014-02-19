@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Robert Mozayeni" => "dev@mozayeni.com" }
   s.source       = { 
     :git => "https://github.com/rsmoz/RSMToolkit.git", 
-    :tag => "0.0.4"
+    :tag => "0.0.6"
   }
 
   s.platform     = :ios, '6.1'
