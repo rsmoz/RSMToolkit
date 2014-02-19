@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     :tag => "0.0.6"
   }
 
-  s.platform     = :ios, '6.1'
+  s.platform     = :ios, '7.0'
   s.source_files = 'RSMToolkit/*.{h,m}'
   s.requires_arc = true
 end
