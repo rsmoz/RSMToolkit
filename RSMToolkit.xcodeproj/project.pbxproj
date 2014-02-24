@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754D482618BBE94C000716A8 /* UIColor+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 754D482518BBE94C000716A8 /* UIColor+RSMToolKit.m */; };
 		75947D9117B601EE00E91A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75947D9017B601EE00E91A62 /* Foundation.framework */; };
 		75947D9617B601EE00E91A62 /* RSMToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75947D9517B601EE00E91A62 /* RSMToolkit.h */; };
 		75947D9817B601EE00E91A62 /* RSMToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947D9717B601EE00E91A62 /* RSMToolkit.m */; };
@@ -17,8 +18,8 @@
 		75947DAB17B601EE00E91A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75947DA917B601EE00E91A62 /* InfoPlist.strings */; };
 		75947DAD17B601EE00E91A62 /* RSMToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */; };
 		75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */; };
-		75A7A5E11875DC0B00B639B0 /* NSArray+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */; };
-		75A7A5E41875DC3300B639B0 /* NSDictionary+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */; };
+		75A7A5E11875DC0B00B639B0 /* NSArray+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E01875DC0B00B639B0 /* NSArray+RSMToolKit.m */; };
+		75A7A5E41875DC3300B639B0 /* NSDictionary+RSMToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A5E31875DC3300B639B0 /* NSDictionary+RSMToolKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		754D482418BBE94C000716A8 /* UIColor+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSMToolKit.h"; sourceTree = "<group>"; };
+		754D482518BBE94C000716A8 /* UIColor+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSMToolKit.m"; sourceTree = "<group>"; };
 		75947D8D17B601EE00E91A62 /* libRSMToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSMToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75947D9017B601EE00E91A62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75947D9417B601EE00E91A62 /* RSMToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSMToolkit-Prefix.pch"; sourceTree = "<group>"; };
@@ -58,10 +61,10 @@
 		75947DAC17B601EE00E91A62 /* RSMToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMToolkitTests.m; sourceTree = "<group>"; };
 		75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSMToolKit.h"; sourceTree = "<group>"; };
 		75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSMToolKit.m"; sourceTree = "<group>"; };
-		75A7A5DF1875DC0B00B639B0 /* NSArray+DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DeepCopy.h"; sourceTree = "<group>"; };
-		75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DeepCopy.m"; sourceTree = "<group>"; };
-		75A7A5E21875DC3300B639B0 /* NSDictionary+DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeepCopy.h"; sourceTree = "<group>"; };
-		75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeepCopy.m"; sourceTree = "<group>"; };
+		75A7A5DF1875DC0B00B639B0 /* NSArray+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RSMToolKit.h"; sourceTree = "<group>"; };
+		75A7A5E01875DC0B00B639B0 /* NSArray+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RSMToolKit.m"; sourceTree = "<group>"; };
+		75A7A5E21875DC3300B639B0 /* NSDictionary+RSMToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RSMToolKit.h"; sourceTree = "<group>"; };
+		75A7A5E31875DC3300B639B0 /* NSDictionary+RSMToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RSMToolKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +126,12 @@
 				75947D9717B601EE00E91A62 /* RSMToolkit.m */,
 				75947DB617B6045F00E91A62 /* UIView+RSMToolKit.h */,
 				75947DB717B6045F00E91A62 /* UIView+RSMToolKit.m */,
-				75A7A5DF1875DC0B00B639B0 /* NSArray+DeepCopy.h */,
-				75A7A5E01875DC0B00B639B0 /* NSArray+DeepCopy.m */,
-				75A7A5E21875DC3300B639B0 /* NSDictionary+DeepCopy.h */,
-				75A7A5E31875DC3300B639B0 /* NSDictionary+DeepCopy.m */,
+				75A7A5DF1875DC0B00B639B0 /* NSArray+RSMToolKit.h */,
+				75A7A5E01875DC0B00B639B0 /* NSArray+RSMToolKit.m */,
+				754D482418BBE94C000716A8 /* UIColor+RSMToolKit.h */,
+				754D482518BBE94C000716A8 /* UIColor+RSMToolKit.m */,
+				75A7A5E21875DC3300B639B0 /* NSDictionary+RSMToolKit.h */,
+				75A7A5E31875DC3300B639B0 /* NSDictionary+RSMToolKit.m */,
 				75947D9317B601EE00E91A62 /* Supporting Files */,
 			);
 			path = RSMToolkit;
@@ -239,9 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754D482618BBE94C000716A8 /* UIColor+RSMToolKit.m in Sources */,
 				75947DB817B6045F00E91A62 /* UIView+RSMToolKit.m in Sources */,
-				75A7A5E11875DC0B00B639B0 /* NSArray+DeepCopy.m in Sources */,
-				75A7A5E41875DC3300B639B0 /* NSDictionary+DeepCopy.m in Sources */,
+				75A7A5E11875DC0B00B639B0 /* NSArray+RSMToolKit.m in Sources */,
+				75A7A5E41875DC3300B639B0 /* NSDictionary+RSMToolKit.m in Sources */,
 				75947D9817B601EE00E91A62 /* RSMToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
