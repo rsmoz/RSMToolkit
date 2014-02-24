@@ -1,14 +1,14 @@
 //
-//  NSArray+DeepCopy.m
+//  NSArray+RSMToolKit.m
 //  RSMToolkit
 //
 //  Created by Robert S Mozayeni on 1/2/14.
 //  Copyright (c) 2014 Robert Mozayeni. All rights reserved.
 //
 
-#import "NSArray+DeepCopy.h"
+#import "NSArray+RSMToolKit.h"
 
-@implementation NSArray (DeepCopy)
+@implementation NSArray (RSMToolKit)
 
 - (NSArray*) deepCopy {
     unsigned int count = [self count];

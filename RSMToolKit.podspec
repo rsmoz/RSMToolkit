@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RSMToolkit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Personal toolkit"
   s.homepage     = "https://github.com/rsmoz/RSMToolkit"
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Robert Mozayeni" => "dev@mozayeni.com" }
   s.source       = { 
     :git => "https://github.com/rsmoz/RSMToolkit.git", 
-    :tag => "0.0.6"
+    :tag => "0.0.7"
   }
 
   s.platform     = :ios, '7.0'

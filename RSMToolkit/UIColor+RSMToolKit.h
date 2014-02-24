@@ -10,4 +10,9 @@
 
 @interface UIColor (RSMToolKit)
 
++ (UIColor *) colorFromHexCode:(NSString *)hexString;
+
+
 @end
+
+

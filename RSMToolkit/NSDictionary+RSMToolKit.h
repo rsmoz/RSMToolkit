@@ -1,5 +1,5 @@
 //
-//  NSDictionary+DeepCopy.h
+//  NSDictionary+RSMToolKit.h
 //  RSMToolkit
 //
 //  Created by Robert S Mozayeni on 1/2/14.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NSDictionary (DeepCopy)
+@interface NSDictionary (RSMToolKit)
 
 - (NSDictionary*) deepCopy;
 - (NSMutableDictionary*) mutableDeepCopy;

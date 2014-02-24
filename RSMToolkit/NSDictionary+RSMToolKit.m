@@ -1,14 +1,14 @@
 //
-//  NSDictionary+DeepCopy.m
+//  NSDictionary+RSMToolKit.m
 //  RSMToolkit
 //
 //  Created by Robert S Mozayeni on 1/2/14.
 //  Copyright (c) 2014 Robert Mozayeni. All rights reserved.
 //
 
-#import "NSDictionary+DeepCopy.h"
+#import "NSDictionary+RSMToolKit.h"
 
-@implementation NSDictionary (DeepCopy)
+@implementation NSDictionary (RSMToolKit)
 
 
 

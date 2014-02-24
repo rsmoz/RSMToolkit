@@ -1,5 +1,5 @@
 //
-//  NSArray+DeepCopy.h
+//  NSArray+RSMToolKit.h
 //  RSMToolkit
 //
 //  Created by Robert S Mozayeni on 1/2/14.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (DeepCopy)
+@interface NSArray (RSMToolKit)
 
 - (NSArray*) deepCopy;
 - (NSMutableArray*) mutableDeepCopy;
