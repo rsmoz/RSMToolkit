@@ -14,7 +14,7 @@
 
 
 - (NSDictionary*) deepCopy {
-    unsigned int count = [self count];
+    NSUInteger count = [self count];
     id cObjects[count];
     id cKeys[count];
 	
@@ -45,7 +45,7 @@
     return ret;
 }
 - (NSMutableDictionary*) mutableDeepCopy {
-    unsigned int count = [self count];
+    NSUInteger count = [self count];
     id cObjects[count];
     id cKeys[count];
 	
